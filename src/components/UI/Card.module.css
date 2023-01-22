@@ -1,0 +1,7 @@
+.main {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+  background-color: rgb(141, 134, 134);
+  border-radius: 15px;
+}

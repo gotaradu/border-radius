@@ -1,0 +1,70 @@
+.box {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.item-1 {
+  border: 1px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+.item-2 {
+  border: 1px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  grid-area: 1/3;
+  align-self: flex-end;
+}
+.item-3 {
+  border: 1px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  grid-area: 3/1;
+  align-items: flex-end;
+  text-align: right;
+}
+.item-4 {
+  border: 1px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  grid-area: 3/3;
+  flex-wrap: wrap;
+}
+.item-img {
+  grid-area: 2/2;
+  align-self: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  text-shadow: 1px 1px 3px rgb(143, 149, 149);
+  font-family: 'Space Mono', monospace;
+  width: 65%;
+  background-color: rgba(76, 68, 69, 0.114);
+  box-shadow: 1px 1px 3px rgba(1, 1, 1, 0.963);
+  border-color: rgb(7, 82, 82);
+  border-style: groove;
+  border-radius: 5px;
+}
+input:hover {
+  background-color: rgba(189, 170, 172, 0.963);
+}
+input:focus {
+  border-style: inset;
+}
+
+label {
+  width: 100%;
+}
